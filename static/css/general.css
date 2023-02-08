@@ -1,0 +1,15 @@
+* {
+    font-family: textRegular;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+p {
+    margin: 1rem auto 0 auto;
+    width: 45.1rem;
+}
