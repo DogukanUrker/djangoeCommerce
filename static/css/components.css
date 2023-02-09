@@ -1,0 +1,121 @@
+.container {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* btns default */
+.btn {
+    padding: 0.5rem;
+    display: inline-block;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.btnOutline {
+    border: 1px solid;
+}
+
+.btnOutline:hover {
+    color: var(--white);
+}
+
+/* btns */
+.btnTheme {
+    color: var(--themeSecondary);
+    background-color: var(--themePrimary);
+}
+
+.btnPrimary {
+    color: var(--themeSecondary);
+    background-color: var(--primary);
+}
+
+.btnSecondary {
+    color: var(--themeSecondary);
+    background-color: var(--secondary);
+}
+
+.btnRed {
+    color: var(--themeSecondary);
+    background-color: var(--red);
+}
+
+.btnGreen {
+    color: var(--themeSecondary);
+    background-color: var(--green);
+}
+
+/* btns hover */
+.btnTheme:hover {
+    color: var(--themePrimary);
+    background-color: var(--themeSecondary);
+}
+
+.btnPrimary:hover {
+    background-color: #4A3A8E;
+}
+
+.btnSecondary:hover {
+    background-color: #00A09E;
+}
+
+.btnRed:hover {
+    background-color: #E40813;
+}
+
+.btnGreen:hover {
+    background-color: #00803E;
+}
+
+/* btns outlines*/
+.btnOutlineTheme {
+    color: var(--themePrimary);
+    border-color: var(--themePrimary);
+}
+
+.btnOutlinePrimary {
+    color: var(--themePrimary);
+    border-color: var(--primary);
+}
+
+.btnOutlineSecondary {
+    color: var(--themePrimary);
+    border-color: var(--secondary);
+}
+
+.btnOutlineRed {
+    color: var(--themePrimary);
+    border-color: var(--red);
+}
+
+.btnOutlineGreen {
+    color: var(--themePrimary);
+    border-color: var(--green);
+}
+
+/* btns outlines hover */
+.btnOutlineTheme:hover {
+    color: var(--themeSecondary);
+    background-color: var(--themePrimary);
+}
+
+.btnOutlinePrimary:hover {
+    background-color: var(--primary);
+}
+
+.btnOutlineSecondary:hover {
+    background-color: var(--secondary);
+}
+
+.btnOutlineRed:hover {
+    background-color: var(--red);
+}
+
+.btnOutlineGreen:hover {
+    background-color: var(--green);
+}
