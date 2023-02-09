@@ -20,3 +20,7 @@ a {
     font-family: textMedium;
     text-decoration-thickness: 2px;
 }
+
+br {
+    user-select: none;
+}
