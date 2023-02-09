@@ -1,5 +1,6 @@
 * {
     font-family: textRegular;
+    transition: 0.25s;
 }
 
 h1 {
@@ -12,4 +13,10 @@ h1 {
 p {
     margin: 1rem auto 0 auto;
     width: 45.1rem;
+}
+
+a {
+    user-select: none;
+    font-family: textMedium;
+    text-decoration-thickness: 2px;
 }
