@@ -1,0 +1,59 @@
+:root {
+    --themePrimary: #040404;
+    --themeSecondary: #FFFCFF;
+    --primary: #5F4BB6;
+    --secondary: #00CECB;
+    --red: #F8333C;
+    --green: #00A550;
+    --black: #040404;
+    --white: #FFFCFF;
+
+}
+
+.textThemePrimary {
+    color: var(--themePrimary);
+}
+
+.textThemeSecondary {
+    color: var(--themeSecondary);
+}
+
+.textPrimary {
+    color: var(--primary);
+}
+
+.textScondary {
+    color: var(--secondary);
+}
+
+.textRed {
+    color: var(--red);
+}
+
+.textGreen {
+    color: var(--green);
+}
+
+.bgThemePrimary {
+    background-color: var(--themePrimary);
+}
+
+.bgThemeSecondary {
+    background-color: var(--themeSecondary);
+}
+
+.bgPrimary {
+    background-color: var(--primary);
+}
+
+.bgScondary {
+    background-color: var(--secondary);
+}
+
+.bgRed {
+    background-color: var(--red);
+}
+
+.bgGreen {
+    background-color: var(--green);
+}
