@@ -7,6 +7,10 @@
     --green: #00A550;
     --black: #040404;
     --white: #FFFCFF;
+    --primaryShade: #4A3A8E;
+    --secondaryShade: #00A09E;
+    --redShade: #E40813;
+    --greenShade: #00803E;
 
 }
 
@@ -32,6 +36,22 @@
 
 .textGreen {
     color: var(--green);
+}
+
+.textPrimary:hover {
+    color: var(--primaryShade);
+}
+
+.textScondary:hover {
+    color: var(--secondaryShade);
+}
+
+.textRed:hover {
+    color: var(--redShade);
+}
+
+.textGreen:hover {
+    color: var(--greenShade);
 }
 
 .bgThemePrimary {
