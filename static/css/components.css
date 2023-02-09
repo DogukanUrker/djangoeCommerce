@@ -1,6 +1,5 @@
 .container {
-    text-align: center;
-    width: 80%;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -14,6 +13,7 @@
     background-color: transparent;
     cursor: pointer;
     transition: 0.25s;
+    user-select: none;
 }
 
 .btnOutline {
@@ -57,19 +57,19 @@
 }
 
 .btnPrimary:hover {
-    background-color: #4A3A8E;
+    background-color: var(--primaryShade);
 }
 
 .btnSecondary:hover {
-    background-color: #00A09E;
+    background-color: var(--secondaryShade);
 }
 
 .btnRed:hover {
-    background-color: #E40813;
+    background-color: var(--redShade);
 }
 
 .btnGreen:hover {
-    background-color: #00803E;
+    background-color: var(--greenShade);
 }
 
 /* btns outlines*/
@@ -118,4 +118,37 @@
 
 .btnOutlineGreen:hover {
     background-color: var(--green);
+}
+
+/* alerts */
+
+.alert {
+    color: var(--white);
+    border-radius: 0.3rem;
+    padding: 1rem;
+    user-select: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    display: block;
+    font-family: textMedium;
+}
+
+.alertDanger {
+    background-color: var(--red);
+}
+
+.alertSuccess {
+    background-color: var(--green);
+}
+
+/* badges */
+.badge {
+    padding: 0.25rem;
+    color: var(--white);
+    border-radius: 0.25rem;
+    display: inline-block;
+    font-family: textMedium;
+    width: fit-content;
+    user-select: none;
 }
