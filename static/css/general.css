@@ -1,6 +1,24 @@
+html {
+    font-size: 115% !important;
+}
+
 * {
     font-family: textRegular;
     transition: 0.25s;
+}
+
+*::-webkit-scrollbar {
+    width: 0.4rem;
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background: var(--themePrimary);
+}
+
+*::-webkit-scrollbar-track,
+*::-webkit-scrollbar-button {
+    background: transparent;
 }
 
 h1 {
@@ -10,15 +28,13 @@ h1 {
     width: fit-content;
 }
 
+body {
+    margin: 0;
+}
+
 p {
     margin: 1rem auto 0 auto;
     width: 45.1rem;
-}
-
-a {
-    user-select: none;
-    font-family: textMedium;
-    text-decoration-thickness: 2px;
 }
 
 br {
