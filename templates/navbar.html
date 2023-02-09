@@ -1,0 +1,23 @@
+<link
+  rel="stylesheet"
+  href="{{ url_for('static', filename='css/navbar.css') }}"
+/>
+<div class="container navbar">
+  <h2>flaskeCommerce</h2>
+  <div class="searchBar">
+    <input type="text" class="input inputPrimary" />
+    <button class="btn btnOutline btnOutlineGreen">Search</button>
+  </div>
+  <div class="buttons">
+    <a
+      class="btn btnOutline btnOutlineSecondary"
+      href="/login/direct={{request.path.replace('/','&')}}"
+      >Log in</a
+    >
+    <a
+      class="btn btnPrimary"
+      href="/signup/direct={{request.path.replace('/','&')}}"
+      >Sign up</a
+    >
+  </div>
+</div>
