@@ -1,4 +1,5 @@
 # flaskeCommerce
+in development...🫥
 
 🛍️eCommerce website🛒 **Flask**, **MongoDB**, **Jinja**, **HTML**, pure **CSS** and **JavaScript**.
 
