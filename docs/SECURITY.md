@@ -1,6 +1,6 @@
 # Security Policy
 
-Use latest version on [dogukanurker/flaskeCommerce](https://github.com/DogukanUrker/flaskeCommerce)
+Use latest version on [dogukanurker/djangoeCommerce](https://github.com/DogukanUrker/djangoeCommerce)
 
 ## Reporting a Vulnerability
 
